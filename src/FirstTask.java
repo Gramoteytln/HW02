@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HW02 {
+public class FirstTask {
     public static void main(String[] args) {
 
         Scanner myScanner = new Scanner(System.in);
@@ -12,11 +12,11 @@ public class HW02 {
 
         // calculate area
         double area = width * height;
-        System.out.println("Area of a rectangle " + area);
+        System.out.println("Area of a rectangle: " + area);
 
         // calculate perimeter
         double perimeter = 2*(width+height);
-        System.out.println("Perimeter of a rectangle is"+perimeter);
+        System.out.println("Perimeter of a rectangle is: "+perimeter);
 
 
 
